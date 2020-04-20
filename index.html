@@ -9,37 +9,29 @@
     <link href='style.css' rel='stylesheet'>
     <link href="https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2" rel="stylesheet">
     <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+  </head>
   <body>
     <div class="card-form" id="main-card">
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png" id="logo">
       <button class="btn btn-primary button-form" id="button-identification" type="submit" ><a href="https://www.netflix.com/fr-en/login">S'identifier</a></button>
-      <div class="text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-1">
-            </div>
-            <div class="col-lg-10">
-              <h1>Films, séries TV et bien <br> plus en illimité.</h1>
-              <h2>Où que vous soyez. Annulez à tout moment.</h2>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-1">
-                  </div>
-                  <div class="col-lg-7">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-lg-10 font-size">
+            <h1>Films, séries TV et bien <br> plus en illimité.</h1>
+            <h2 class="margin-card">Où que vous soyez. Annulez à tout moment.</h2>
+            <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-7 col-md-10">
                     <input id="adress-form" type="text" class="form-control"  placeholder="Adresse e-mail" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-auto col-md-3">
                     <button class="btn btn-primary button-form" id="try-button" type="submit"><a href="https://www.netflix.com/signup?locale=en-FR">ESSAYER&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></a></button>
-                  </div>
-                  <div class="col-lg-1">
                   </div>
                 </div>
               </div>
               <p>
                 Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour créer votre compte ou y accéder.
               </p>
-            </div>
-            <div class="col-lg-1">
             </div>
           </div>
         </div>
@@ -48,14 +40,14 @@
 
 
     <div class="card-form card-medium">
-      <div class="row margin-row">
-        <div class="col-lg-6">
+      <div class="row margin-row justify-content-center">
+        <div class="col-lg-6 col-md-12">
           <div class="disp-flex-col">
             <h1 class="margin text-align"> Regardez Netflix sur votre TV.</h1>
             <h2 class="margin text-align">Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et bien plus.</h2>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-10">
           <div class="animation-container">
             <img alt="" class="img-cadre-0" src="images/tv.png" data-uia="our-story-card-img">
             <div class="container-pos-0 z-1">
@@ -67,9 +59,9 @@
     </div>
 
 
-    <div class="card-form card-medium">
-      <div class="row margin-row">
-        <div class="col-lg-5">
+    <div class="card-form card-medium ">
+      <div class="row margin-row justify-content-center flex-inv">
+        <div class="col-lg-5 col-md-10">
           <div class="down-container">
             <img alt="" class="img-cadre-1 z-1" src="images/strange.png" data-uia="our-story-card-img">
             <div class="container-pos-1">
@@ -90,7 +82,7 @@
         </div>
         <div class="col-lg-1">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-12 flex-inv1">
           <div class="disp-flex-col" id="strange-text" >
             <h1 class="margin text-align">Téléchargez vos séries préférées pour les regarder hors connexion.</h1>
             <h2 class="margin text-align">Profitez du mode hors ligne sans épuiser votre forfait.</h2>
@@ -101,14 +93,14 @@
 
 
     <div class="card-form card-medium">
-      <div class="row margin-row">
-        <div class="col-lg-6">
+      <div class="row margin-row justify-content-center">
+        <div class="col-lg-6 col-md-12 ">
           <div class="disp-flex-col">
             <h1 class="margin text-align">Où que vous soyez.</h1>
             <h2 class="margin text-align">Regardez des films et séries TV en accès illimité sur votre TV, smartphone, tablette et ordinateur, tout compris.</h2>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-10">
           <div class="our-story-card-animation-container">
             <img alt="" class="img-cadre-2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" data-uia="our-story-card-img">
             <div class="container-pos-0 z-1">
@@ -235,10 +227,10 @@
     </div>
 
 
-    <div class="card-form card-medium footer">
+    <div class="card-medium footer">
       <div class="footer-container ">
         <div id="main-question">
-          <a href="#" >Des questions ? Contactez nous.</a>
+          <a href="https://help.netflix.com/fr/contactus" >Des questions ? Contactez nous.</a>
         </div>
         <div class="help">
           <div class="list">
@@ -263,19 +255,18 @@
         </div>
         <div class="dropdown">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-globe"></i>&nbsp;&nbsp;Français
+           <i class="fas fa-globe"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Français
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item" href="#">Français</a>
-            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="https://www.netflix.com/fr-en/">English</a>
           </div>
+        </div>
+        <div class="text-end">
+          Netflix
         </div>
       </div>
     </div>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
