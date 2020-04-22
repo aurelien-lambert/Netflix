@@ -22,7 +22,7 @@ body{
 }
 
 .margin-card{
-	margin: 30px;
+	margin: 3%;
 }
 
 #logo{
@@ -30,7 +30,7 @@ body{
 	height: auto;
 	position: absolute;
 	top: 31px;
-	left: 60px;
+	left: 5%;
 }
 
 #adress-form{
@@ -43,7 +43,7 @@ body{
 	border: none;
 	position: absolute;
 	top: 30px; 
-	right: 62px;
+	right: 5%;
     line-height: normal;
     padding: 7px 19px;
     font-weight: 400;
@@ -117,9 +117,6 @@ p{
 	padding-left: 10%;
 }
 
-#strange-text{
-	max-width: 680px;
-}
 
 .disp-flex-col{
 	display:flex;
@@ -277,6 +274,8 @@ a:hover{
 	color:white;
 }
 
+
+
 #thin-x{
 	height: 40px;
 	width:auto;
@@ -301,17 +300,17 @@ a:hover{
 
 #main-question > a{
 	color:#757575;
-	font-size:18px;
+	font-size: 18px;
 }
 
 .list-item > a{
 		color:#757575;
-		font-size:14px;
+		font-size: 14px;
 }
 
 .text-end{
 	color:#757575;
-	font-size:14px;
+	font-size: 14px;
 }
 
 
@@ -424,9 +423,67 @@ h2{
 .flex-inv1 :nth-child(1) { order: 1; }
 .flex-inv1 :nth-child(2) { order: 2; }
 
+.flex-inv2 :nth-child(3) { order: 1; }
+.flex-inv2 :nth-child(1) { order: 2; }
+.flex-inv2 :nth-child(2) { order: 3; }
+
+.flex-inv2 :nth-child(1){
+	margin-top: 0 ;
+}
+
+#thin-x{
+	height: 30px;
+	width:auto;
 
 }
 
+.list-item{
+	width:33.33%;
+}
+
+#logo{
+	width:120px;
+}
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+.font-size > h1{
+    font-size: 29px;
+}
+
+.font-size > h2{
+	font-size: 20px;
+}
+
+h1{
+	font-size:29px
+}
+
+h2{
+	font-size:20px
+}
+
+.list-item{
+	width:50%;
+}
+
+#logo{
+	width:100px;
+}
+
+#button-identification{
+	padding: 5px 10px;
+}
+
+p{
+	padding-top:0px;
+}
+
+}
 
 
 
